@@ -1,0 +1,68 @@
+.crimson-text-regular {
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.crimson-text-semibold {
+  font-family: "Crimson Text", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.crimson-text-bold {
+  font-family: "Crimson Text", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.crimson-text-regular-italic {
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.crimson-text-semibold-italic {
+  font-family: "Crimson Text", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.crimson-text-bold-italic {
+  font-family: "Crimson Text", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+body {
+    background-color: rgb(235, 235, 235);
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(16, 15, 15);
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(16, 15, 15);
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+    color: rgb(16, 15, 15);
+}
+
+.formatText {
+    color: rgb(16, 15, 15);
+    text-align: center;
+    font-family: 'crimson-text-regular';
+    white-space: pre-line;
+}
+
+#map { height: 260px; }
