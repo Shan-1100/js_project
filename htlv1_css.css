@@ -71,8 +71,27 @@ p {
     white-space: pre-line;
 }
 
-#map { height: 260px; }
-#mapSalvador { height: 260px; }
-#mapBelem { height: 260px; }
-#mapBethesda { height: 260px; }
-#mapMultiple { height: 260px; }
+#map { 
+  height: 260px;
+  width: 1000px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+ }
+#mapBrazil {
+  height: 260px;
+  width: 1000px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+ }
+#mapIran {
+  height: 260px;
+  width: 1000px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+ }
+#mapMultiple {
+  height: 260px;
+width: 1000px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+ }
