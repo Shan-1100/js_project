@@ -1,24 +1,105 @@
 <!doctype html>
 <html lang="en">
-    <head>
+<head>
     <meta charset="utf-8">
-    <title>Brief Summary of Recent HTLV-1 Research</title>
+    <title>Geographic Summary of HTLV-1 Clinical Trials</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
      crossorigin=""/>
-     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     <link rel="stylesheet" href="htlv1_css.css">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
      crossorigin=""></script>
-     <link rel="stylesheet" href="htlv1_css.css">
-<!--insert the following: link rel= "stylesheet" href = "name of my css doc"-->
-    </head>
-    <body>
-    <h1>Brief Summary of Recent HTLV-1 Research</h1>
-    <p>HTLV-1 is a terrible retrovirus.</p>
+    
+<!--    <style>
+        #mapMultiple {
+            height: 300px;
+            width: 600px;
+        }
+     </style>-->
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+
+</head>
+<body>
+<header class="w3-container w3-light-grey w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-xlarge">Summary of HTLV-1 Clinical Trials Accross the Globe</h1>
+  <p class="w3-large">A geographic overview of research entities that have completed clinical trials on HTLV-1 from 2020 to 2025</p>
+</header>
+
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+      <h1>What is HTLV-1?</h1>
+      <h5 class="w3-padding-32">HTLV-1 (Human T-cell Lymphotropic Virus Type 1) is a retrovirus that infects T-cells and is associated with various diseases, including adult T-cell leukemia/lymphoma (ATLL) and tropical spastic paraparesis/HTLV-1-associated myelopathy (TSP/HAM).</p>
+     consequat.</h5>
+
+      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+</div>
+    <h1>Summary of HTLV-1 Clinical Trials</h1>
+    <p> A geographic overview of research entities that have completed clinical trials on HTLV-1 from 2020 to 2025</p>
     <div id="map"></div>
-    <p>Last text on webpage</p>
+    <p>More webpage text</p>
+
+    <div id="mapSalvador"></div>
+    <p>More webpage text</p>
+
+    <div id="mapBelem"></div>
+    <p>More webpage text</p>
+
+    <div id="mapBethesda"></div>
+    <p>More webpage text</p>
+
+    <div id="mapMultiple"></div>
+
+    <p>Last webpage text</p>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="testMap.js"></script>
+    
+<!--    <script>
+    const mapMultiple = L.map('mapMultiple');
+    mapMultiple.setView([39.4, -100.5], 4);
+
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    })
+    .addTo(mapMultiple);
+
+    L.marker([40.848722217858395, -73.84460536206392],{
+        title: "Montefiore Medical Center",
+        })
+    .addTo(mapMultiple)
+    .bindPopup('Montefiore Medical Center<br> Bronx, NY')
+    
+    const data = {
+        montefiore: {
+            coordinates: [40.848722217858395, -73.84460536206392],
+            title: "Montefiore Medical Center",
+        },
+        hopkins: {
+            coordinates: [39.328, -76.620],
+            title: "Johns Hopkins University/Sidney Kimmel Cancer Center",
+        },
+        bethesda: {
+            coordinates: [39.0, -77.0],
+            title: "National Institutes of Health Clinical Center",
+        },
+        columbus: {
+            coordinates: [39.9612, -82.9988],
+            title: "Ohio State University Comprehensive Cancer Center",
+        }
+    };
+
+    </script> -->
+
 <!--insert script for content.js here (I think this should have json file)-->
     </body>
 </html>

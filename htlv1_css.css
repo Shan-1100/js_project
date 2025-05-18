@@ -35,14 +35,17 @@
 }
 
 body {
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(248, 248, 248);
 }
 
 h1 {
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
-    color: rgb(16, 15, 15);
+  font-family: "Crimson Text", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(16, 15, 15);
 }
 
 h2 {
@@ -53,9 +56,12 @@ h2 {
 }
 
 p {
-    font-size: 16px;
-    text-align: center;
-    color: rgb(16, 15, 15);
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  text-align: center;
+  color: rgb(16, 15, 15);
 }
 
 .formatText {
@@ -66,3 +72,7 @@ p {
 }
 
 #map { height: 260px; }
+#mapSalvador { height: 260px; }
+#mapBelem { height: 260px; }
+#mapBethesda { height: 260px; }
+#mapMultiple { height: 260px; }
