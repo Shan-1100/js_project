@@ -1,3 +1,4 @@
+// This section of the JS file initializes multiple Leaflet maps with markers and popups//
 
 var map = L.map('map').setView([35.59953867565579, 139.54847218388477], 5);
 var marker1 = L.marker([35.59953867565579, 139.5484721838847]).addTo(map);
@@ -48,3 +49,26 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(mapMultiple);
+
+// This section of the JS file gives instructions to populate the table date from the JSON file//
+
+fetch("research.json")
+.then(function(response){
+    return response.json();
+})
+.then(function(researches){
+    let placeholder = document.querySelector("#data-output");
+    let out = "";
+    for(let research of researches){
+        out += `
+        <tr>
+            <td>${research.Title}</td>
+            <td>${research.Citation}</td>
+            <td>${research.PMID}</td>
+            <td>${research.Authors}</td>
+            
+        </tr>
+        `;
+    }
+    placeholder.innerHTML = out;
+})
