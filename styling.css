@@ -1,3 +1,47 @@
+/* This file contains the CSS styles for the HTML document */
+
+c
+#map { 
+  height: 260px;
+  width: 1000px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+ }
+#mapBrazil {
+  height: 260px;
+  width: 1000px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+ }
+#mapIran {
+  height: 260px;
+  width: 1000px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+ }
+#mapMultiple {
+  height: 260px;
+width: 1000px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+ }
+
+ /* This section contains the styles for the table elements */
+table {
+  height: 70px;
+}
+
+table, th, td {
+  border: 1px solid;
+}
+
+table th{
+	padding: 10px 0;
+	background-color: #f4f4f4;
+	/* background-color: #fff; */
+}
+
+ /* This section contains supplemental font-specific css styling for the webpage*/
 .crimson-text-regular {
   font-family: "Crimson Text", serif;
   font-weight: 400;
@@ -71,27 +115,3 @@ p {
     white-space: pre-line;
 }
 
-#map { 
-  height: 260px;
-  width: 1000px;
-  margin: 0 auto;
-  border: 1px solid #ccc;
- }
-#mapBrazil {
-  height: 260px;
-  width: 1000px;
-  margin: 0 auto;
-  border: 1px solid #ccc;
- }
-#mapIran {
-  height: 260px;
-  width: 1000px;
-  margin: 0 auto;
-  border: 1px solid #ccc;
- }
-#mapMultiple {
-  height: 260px;
-width: 1000px;
-  margin: 0 auto;
-  border: 1px solid #ccc;
- }
