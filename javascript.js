@@ -1,6 +1,6 @@
 // This section of the JS file initializes multiple Leaflet maps with markers and popups//
 
-var map = L.map('map').setView([35.59953867565579, 139.54847218388477], 5);
+var map = L.map('map').setView([35.59, 139.54], 5);
 var marker1 = L.marker([35.59953867565579, 139.5484721838847]).addTo(map);
 marker1.bindPopup("<b> St. Marianna University School of Medicine, Kanagawa, Japan </b><br>Conducted multiple clinical trials").openPopup();
 var marker2 = L.marker([31.72144340048172, 130.6034920496261]).addTo(map);
