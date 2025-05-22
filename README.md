@@ -1,5 +1,7 @@
-template readme file. I'm trying to get my repository published as a project webpage.
-Helpful sources include:
-The course website
-www.w3schools.com
+Javascript Project README file.
+This project includes the following file types: .js, .html, .css, .json
+
+Helpful sources included:
+The 'Intro to Javascript' course website,
+www.w3schools.com,
 Digitalfox Web Dev Tutorials
